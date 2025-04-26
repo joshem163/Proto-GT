@@ -174,7 +174,7 @@ if __name__ == "__main__":
             'batch_size': 32,
             'hidden_channels': 64,
             'dropout': 0.5,
-            'epochs': 400,
+            'epochs': 600,
             'opt': 'adam',
             'opt_scheduler': 'none',
             'opt_restart': 0,
