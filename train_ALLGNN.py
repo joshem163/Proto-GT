@@ -172,7 +172,7 @@ if __name__ == "__main__":
             'num_layers': 2,
             'heads': 4,
             'batch_size': 32,
-            'hidden_channels': 256,
+            'hidden_channels': 64,
             'dropout': 0.5,
             'epochs': 400,
             'opt': 'adam',
