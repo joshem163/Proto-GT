@@ -23,6 +23,9 @@ In this study,  benchmark datasets have been utilized, comprising both homophili
 
 [cora,citeseer,pubmed](https://pytorch-geometric.readthedocs.io/en/latest/generated/torch_geometric.datasets.Planetoid.html#torch_geometric.datasets.Planetoid),[computer,photo](https://pytorch-geometric.readthedocs.io/en/2.6.0/generated/torch_geometric.datasets.Amazon.html#torch_geometric.datasets.Amazon), [coauthor](https://pytorch-geometric.readthedocs.io/en/latest/generated/torch_geometric.datasets.Coauthor.html), [Roman-empire,Amazon-ratings, Minesweeper,Questions](https://pytorch-geometric.readthedocs.io/en/latest/generated/torch_geometric.datasets.HeterophilousGraphDataset.html), [OGBN-Arxiv](https://ogb.stanford.edu/docs/nodeprop/)
 
+data_utilis.py and dataset.py files has been taken form the following link to use the similar train/test/validation spliting as the baseline model for filtered version of the Chameleon and squirell datasets.
+
+https://github.com/LUOyk1999/tunedGNN/tree/main/medium_graph
 
 # Runing the  Experiments
 To repeat the experiment a specific dataset, first run proto_emb.py to get the *Proto-Embedding*  after that run the train_protoGNN.py for GNN versions mplproto.py for mlp version with the following command:
