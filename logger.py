@@ -1,5 +1,6 @@
 import torch
 
+""" Adapted from https://github.com/snap-stanford/ogb/ """
 
 class Logger(object):
     def __init__(self, runs, info=None):
